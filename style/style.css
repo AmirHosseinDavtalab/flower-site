@@ -1,0 +1,36 @@
+@import url(_header.css);
+@import url(_carousel.css);
+@import url(_products.css);
+@import url(_footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: iransans;
+    src: url(../font/IRANSansX-Medium.woff) format("woff"),
+      url(../font/IRANSansX-Medium.woff2) format("woff2");
+  }
+@font-face {
+  font-family: negar;
+  src: url(../font/ANegaar.ttf) format("ttf");
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+*{
+  font-family: iransans;
+  outline: none !important;
+  box-sizing: border-box;
+}
+.res{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.dontshow{
+  display: block;
+}
+.show{
+  display: none;
+}
+.backdrop{
+  backdrop-filter: blur(5px);
+}
