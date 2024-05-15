@@ -7,4 +7,3 @@ $(document).ready(function () {
     $(".menu-wrapper").removeClass("show-menu");
   });
 });
-document.querySelector('.product-title').textContent = 'ورود';

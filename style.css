@@ -5,13 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: iransans;
-    src: url(../font/IRANSansX-Medium.woff) format("woff"),
-      url(../font/IRANSansX-Medium.woff2) format("woff2");
+    src: url(IRANSansX-Medium.woff) format("woff"),
+      url(IRANSansX-Medium.woff2) format("woff2");
   }
-@font-face {
-  font-family: negar;
-  src: url(../font/ANegaar.ttf) format("ttf");
-}
 body::-webkit-scrollbar{
   display: none;
 }
